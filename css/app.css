@@ -1,0 +1,46 @@
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+}
+
+.board-container {
+  margin: auto;
+}
+
+.cell {
+  font-size: 1.5em;
+  width: 2em;
+  height: 2em;
+}
+
+img {
+  width: 1em;
+  height: 1em;
+}
+
+.up {
+  transform: rotate(-0.25turn)
+
+}
+.down {
+  transform: rotate(90deg)
+}
+
+.left {
+  transform: scaleX(-1)
+}
+
+.modal {
+  background-color: black;
+  border: 5px solid white;
+  width: 300px;
+  padding-bottom: 20px;
+  position: absolute;
+  top: 250px;
+  left: calc(50% - 150px);
+}
+
+.hide {
+  display: none;
+}
